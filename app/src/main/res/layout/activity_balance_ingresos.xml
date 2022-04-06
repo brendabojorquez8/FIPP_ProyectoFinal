@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Balance">
+    tools:context=".BalanceIngresos">
 
     <Button
         android:id="@+id/button10"
@@ -12,7 +12,7 @@
         android:layout_height="34dp"
         android:text="semana"
         android:textSize="8sp"
-        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintBottom_toTopOf="@+id/btnFijos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/button9"
@@ -20,7 +20,7 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btnFijos"
         android:layout_width="106dp"
         android:layout_height="48dp"
         android:text="FIJOS"
@@ -33,7 +33,7 @@
         app:layout_constraintVertical_bias="0.086" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btnClasificacion"
         android:layout_width="106dp"
         android:layout_height="48dp"
         android:text="CLASIFICACION"
@@ -79,7 +79,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.091"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/btnClasificacion"
         app:layout_constraintVertical_bias="0.039" />
 
     <TextView
@@ -93,7 +93,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.15"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/btnClasificacion"
         app:layout_constraintVertical_bias="0.103" />
 
     <Button
@@ -102,7 +102,7 @@
         android:layout_height="34dp"
         android:text="mes"
         android:textSize="8sp"
-        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintBottom_toTopOf="@+id/btnClasificacion"
         app:layout_constraintEnd_toStartOf="@+id/button10"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/textView8"

@@ -22,7 +22,7 @@
             android:name=".Clasificacion"
             android:exported="false" />
         <activity
-            android:name=".Balance"
+            android:name=".BalanceIngresos"
             android:exported="false" />
         <activity
             android:name=".CreaCuenta"
