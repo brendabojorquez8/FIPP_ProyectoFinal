@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ibarra.kevin.proyecto">
+    package="com.jimenez.enrique.finanzaspersonales" >
 
     <application
         android:allowBackup="true"
@@ -8,31 +8,31 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Proyecto">
-        <activity
-            android:name=".Home"
-            android:exported="false" />
-        <activity
-            android:name=".Categoria"
-            android:exported="false" />
-        <activity
-            android:name=".Fijos"
-            android:exported="false" />
-        <activity
-            android:name=".Clasificacion"
-            android:exported="false" />
-        <activity
-            android:name=".BalanceIngresos"
-            android:exported="false" />
-        <activity
-            android:name=".CreaCuenta"
-            android:exported="false" />
-        <activity
-            android:name=".Email"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+        android:theme="@style/Theme.FinanzasPersonales" >
+        <activity android:name=".TarjetaRegistro" >
+        </activity>
+        <activity android:name="com.jimenez.enrique.finanzaspersonales.PerfilProgreso" />
+        <activity android:name="com.jimenez.enrique.finanzaspersonales.TarjetasView" />
+        <activity android:name="com.jimenez.enrique.finanzaspersonales.EmailLogin" />
+        <activity android:name="com.jimenez.enrique.finanzaspersonales.Egresar" />
+        <activity android:name="com.jimenez.enrique.finanzaspersonales.FinanzasView" />
+        <activity android:name="com.jimenez.enrique.finanzaspersonales.Ingresar" />
+        <activity android:name="com.jimenez.enrique.finanzaspersonales.PrincipalSaludo" />
+        <activity android:name="com.jimenez.enrique.finanzaspersonales.BienvenidaC" />
+        <activity android:name="com.jimenez.enrique.finanzaspersonales.BienvenidaB" />
+        <activity android:name="com.jimenez.enrique.finanzaspersonales.Recuperacion" />
+        <activity android:name="com.jimenez.enrique.finanzaspersonales.Pincipal" />
+        <activity android:name="com.jimenez.enrique.finanzaspersonales.CrearCuenta" />
+        <activity android:name="com.jimenez.enrique.finanzaspersonales.Motivacion2" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name="com.jimenez.enrique.finanzaspersonales.Motivacion" />
+        <activity android:name="com.jimenez.enrique.finanzaspersonales.MiembroPro" />
+        <activity android:name="com.jimenez.enrique.finanzaspersonales.Configuracion" />
+        <activity android:name="com.jimenez.enrique.finanzaspersonales.ConfiguracionPerfil" />
+        <activity android:name="com.jimenez.enrique.finanzaspersonales.BienvenidaA" />
+        <activity android:name="com.jimenez.enrique.finanzaspersonales.Perfil" />
+        <activity android:name="com.jimenez.enrique.finanzaspersonales.SincronizarTarjeta" />
+        <activity android:name="com.jimenez.enrique.finanzaspersonales.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

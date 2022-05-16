@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".PerfilProgreso">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            >
+
+            <ImageButton
+                android:id="@+id/btn_volver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/boton_back"
+                android:background="@color/white"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="¡Hola, Usuario!"
+                android:fontFamily="@font/objectsans_heavy"
+                android:textSize="20sp"
+                android:textColor="@color/bienvenidas_title"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="right"
+            >
+
+            <ImageButton
+                android:id="@+id/btn_personalizar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/personalizar"
+                android:background="@color/white"
+                android:layout_marginTop="20dp"
+                android:paddingEnd="10dp"
+                />
+            <ImageButton
+                android:id="@+id/btn_config"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/configura"
+                android:background="@color/white"
+                android:layout_marginTop="20dp"
+                />
+
+
+        </TableRow>
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="20dp"
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/objectsans_heavy"
+                    android:text="Mis Metas"
+                    android:textColor="@color/orange_relleno"
+                    android:textSize="15sp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="2"/>
+
+                <TextView
+                    android:id="@+id/tv_motivacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Emprender"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/grey_cuales"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/objectsans_heavy"
+                   android:textAllCaps="true"
+                    android:layout_weight="2"
+                    />
+
+            </TableRow>
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="left"
+                android:id="@+id/row3"
+                android:orientation="horizontal"
+                android:layout_marginLeft="30dp">
+
+                <RadioButton
+                    android:id="@+id/btn_meta1"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/casita"
+
+                    android:layout_marginHorizontal="5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:button="@android:color/transparent"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+
+                <RadioButton
+                    android:id="@+id/btn_meta2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/add"
+
+                    android:layout_marginHorizontal="5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:button="@android:color/transparent"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+                <RadioButton
+                    android:id="@+id/btn_meta3"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+
+                    android:background="@drawable/add"
+                    android:layout_marginHorizontal="5dp"
+                    android:textAlignment="center"
+                    android:button="@android:color/transparent"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+                <RadioButton
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+
+                    android:background="@drawable/add"
+                    android:layout_marginHorizontal="5dp"
+                    android:textAlignment="center"
+                    android:button="@android:color/transparent"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+                <RadioButton
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+
+                    android:background="@drawable/add"
+                    android:layout_marginHorizontal="5dp"
+                    android:textAlignment="center"
+                    android:button="@android:color/transparent"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+
+                <RadioButton
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/add"
+
+                    android:layout_marginHorizontal="5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:button="@android:color/transparent"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+                <RadioButton
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/add"
+                    android:layout_marginHorizontal="5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:button="@android:color/transparent"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="247dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/grafica_falsa"/>
+
+                <ImageView
+                    android:id="@+id/img_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:src="@drawable/user_button"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_lvl"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/texto_alcancia"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/gray_otro"
+                    android:fontFamily="@font/objectsans_regular"
+                    />
+
+                <TextView
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="¡Haz tus metas realidad!"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/orange_relleno"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/objectsans_heavy"/>
+
+                <TextView
+                    android:textSize="14sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vincula tu tarjeta para mayor facilidad en el registro de tus  movimientos"
+                    android:textAlignment="center"
+                    android:layout_marginHorizontal="70dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/objectsans_regular"
+                    android:textColor="@color/gray_otro"/>
+
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    >
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_ingresos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/ingresar"
+                        android:text="      Ingresos"
+                        android:textColor="@android:color/white"
+                        android:textSize="15sp"
+                        android:textAllCaps="false"
+                        android:fontFamily="@font/objectsans_regular"
+                        />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_egresos"
+                        android:layout_width="129dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="15dp"
+                        android:background="@drawable/egresar"
+                        android:text="        Egresos"
+                        android:textColor="@android:color/white"
+                        android:textSize="15sp"
+                        android:textAllCaps="false"
+                        android:fontFamily="@font/objectsans_regular"
+                        />
+                </TableRow>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_sena_pro"
+                    android:layout_width="201dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/sena_pro"
+                    android:text="Tarjetero"
+                    android:fontFamily="@font/objectsans_heavy"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:textAlignment="center"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

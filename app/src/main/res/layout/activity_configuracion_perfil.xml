@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfiguracionPerfil"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btn_back_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/boton_back"
+                android:background="@color/white"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                />
+
+            <ImageView
+                android:layout_width="93dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/logosena_naranja" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/objectsans_heavy"
+                android:text="Configuracion
+                de perfil"
+                android:textAlignment="center"
+                android:textColor="@color/yellow_inicio"
+                android:textSize="35dp" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Numero de telefono"
+                android:textSize="25dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/yellow_inicio"
+                />
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/TextPhone"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+
+                    android:background="@drawable/round_button3"
+                    android:ems="10"
+                    android:textColor="@color/background_color"
+                    android:hint="MX +52"
+                    android:textAlignment="center"
+                    android:inputType="phone" />
+
+                <EditText
+                    android:id="@+id/Phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/round_button3"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:hint="xxx-xxx-xxx"
+                    android:textAlignment="center"
+                    android:textColor="@color/background_color"/>
+
+            </TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cambiar numero telefonico"
+                android:textSize="15dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="40dp"
+                android:layout_gravity="right"
+                android:textColor="@color/orange_yellow_inicio"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="30dp"
+                android:text="Nombre de usuario"
+                android:textColor="@color/yellow_inicio"
+                android:textSize="25dp"
+                />
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/personName"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginHorizontal="30dp"
+                android:ems="10"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:paddingLeft="15dp"
+                android:fontFamily="@font/objectsans_regular"
+                android:hint="Escribe aqui su nombre de usuario"
+                android:textColorHint="@color/gray_hint"
+                android:inputType="textPersonName"
+                android:background="@drawable/round_button"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cambiar nombre de usuario"
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="right"
+                android:textColor="@color/orange_yellow_inicio"
+                />
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Mis Tarjetas"
+                    android:textSize="20dp"
+                    android:textColor="@color/bienvenidas_title"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="10dp"
+                    android:text="0"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Tarjetas resgistradas"
+                    android:textSize="20dp"
+                    android:textColor="@color/yellow_inicio"
+                    />
+
+            </TableRow>
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical">
+
+                    <GridView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/gridTarjetasConfig"/>
+
+
+                </LinearLayout>
+
+            </ScrollView>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button"
+                    android:text="Eliminar tarjeta"
+                    android:textSize="10dp"
+                    android:textColor="@color/yellow_inicio"/>
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/crearTarjeta"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_button"
+                    android:text="Ingresar nueva tarjeta"
+                    android:textSize="10dp"
+                    android:textColor="@color/bienvenidas_title"
+                    />
+
+
+            </TableRow>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnPrincipal"
+                android:layout_width="201dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/sena_pro"
+                android:text="Home"
+                android:fontFamily="@font/objectsans_heavy"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
