@@ -3,12 +3,40 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/drawable/boton_redondo.xml" value="0.1945" />
         <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_balance.xml" value="0.67" />
         <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_balance_ingresos.xml" value="0.33" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_bienvenida.xml" value="0.25" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_bienvenida_b.xml" value="0.17074275362318841" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_bienvenida_c.xml" value="0.17074275362318841" />
         <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_categoria.xml" value="0.17074275362318841" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_clasificacion.xml" value="0.17074275362318841" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_configuracion.xml" value="0.17074275362318841" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_configuracion_perfil.xml" value="0.21" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_crea_cuenta.xml" value="0.17074275362318841" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_crear_cuenta.xml" value="0.17074275362318841" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_egresar.xml" value="0.17074275362318841" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_egresos_view.xml" value="0.17074275362318841" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_email.xml" value="0.17074275362318841" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_email_login.xml" value="0.17074275362318841" />
         <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_fijos.xml" value="0.5" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_finanzas_view.xml" value="0.17074275362318841" />
         <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_ingresar.xml" value="0.17074275362318841" />
         <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_miembro_pro.xml" value="0.17074275362318841" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_motivacion.xml" value="0.17074275362318841" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_motivacion2.xml" value="0.17074275362318841" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_perfil.xml" value="0.17074275362318841" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_perfil_progreso.xml" value="0.17074275362318841" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_pincipal.xml" value="0.17074275362318841" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_principal_saludo.xml" value="0.17074275362318841" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_recuperacion.xml" value="0.17074275362318841" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_sincronizar_tarjeta.xml" value="0.17074275362318841" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/activity_tarjetas_view.xml" value="0.17074275362318841" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/finansas_view.xml" value="0.17074275362318841" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/metas_views.xml" value="0.17074275362318841" />
+        <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/FIPP_ProyectoFinal/app/src/main/res/layout/tarjeta_view.xml" value="0.17074275362318841" />
         <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/app/src/main/res/layout/activity_balance.xml" value="0.17074275362318841" />
         <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/app/src/main/res/layout/activity_home.xml" value="0.33" />
         <entry key="..\:/Documentos/Brenda/8voSem/ProyectoMoviles/app/src/main/res/layout/activity_registrar_ingreso.xml" value="0.17074275362318841" />

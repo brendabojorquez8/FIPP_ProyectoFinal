@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/fondo_inicio"
+    android:background="@color/yellow_inicio"
     tools:context=".PrincipalSaludo">
 
 
@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logosena_blanco" />
+        app:srcCompat="@drawable/logoblancobienvenida" />
 
     <TextView
         android:id="@+id/textView2"
